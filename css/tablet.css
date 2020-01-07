@@ -1,0 +1,137 @@
+@media only screen and (max-height: 600px) {
+    .header {
+        display: block;
+        position: absolute;
+        text-align: center;
+        
+    }
+    .logo {
+        width: 40%;
+        
+
+        
+       
+    }
+    .nav {
+        font-size: 1em;
+        text-align: center;
+        font-weight: bolder;
+        
+        
+        
+    }
+    .line {
+        display: none;
+    }
+    .phone {
+        display: none;
+    }
+    .scroll {
+        border-left: 3.3px solid #ccc;
+        height: 476px;
+        margin-left: 50px;
+    }
+
+    .social  {
+        left: -50px; 
+    }
+
+    .hero .content .text {
+        font-size: 1.6em;
+        top: 4vh;
+        font-weight: bold;
+       
+       
+    }
+    .hero .back {
+        position: absolute;
+        height: 60px;
+        
+        
+      }  
+    .hero .next {
+        transform: rotate(180deg);
+         position: absolute;
+         height: 60px;
+        
+       }  
+       .about {
+           width: 90%;
+           display: flex;
+           flex-direction: column-reverse;
+           padding: 20px;
+           margin-top: 70px;
+       }
+    
+      
+    
+    .feat {
+        width: 85% ;
+        margin:  0 auto;
+        font-weight: bold;
+        margin-top: 70px;
+      
+    }
+    .feat img  {
+        width: 100%;
+        object-fit: cover;
+        margin-top: 52px;
+     
+    }
+    .feat  p {
+        width: 100%;
+        text-align: center;
+        margin: auto 0;
+        margin-top: 169px;
+        position: absolute;
+        color: white;
+        opacity: .5;
+        text-shadow: 2px 2px 5px #000;
+       
+    }
+    .feat .left {
+        width: 100%;
+        text-align: center;
+        margin: auto;
+        margin-left: -44px;
+        margin-top: 169px;
+        position: absolute;
+       
+    }
+    .feat > div {
+        display: block;
+    }
+
+    .contact .cont {
+        width: 95%;
+        display: block;
+    }
+    .contact .cont .firstCol {
+        padding-left: 0;
+       text-align: center;
+       font-size: 1.2em;
+    }
+    .contact .cont .firstCol p {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .contact .cont .firstCol hr {
+        width: 76%;
+    }
+    .contact .cont .secondCol {
+        padding-top: 0px;
+        font-size: 1em;
+    }
+
+    .contact .cont .secondCol textarea {
+        padding-bottom: 90px;
+    }
+    .contact .cont .secondCol button {
+        margin-left: 60%;
+    }
+
+    footer p {
+        text-align: center;
+        padding-left: 80px;
+    }
+}

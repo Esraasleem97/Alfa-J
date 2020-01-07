@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" type="text/css" href="css/normalize.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" type="text/css" href="css/phone.css">
+    <link rel="stylesheet" type="text/css" href="css/tablet.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.0.4/gsap.min.js"></script>
+    <title>Alfa Jordan</title>
+</head>
+
+<body onload="myLoad();" >
+    <div class="cover">
+        <div id="load"></div>
+    </div>
+    <main class="container" onmousemove="move(event);">
+        <header class="header">
+
+            <img src="img/logo.png" alt="logo" class="logo" />
+            <nav>
+                <ul class="nav">
+                    <li><a href="#">about</a></li>
+                    <li class="line">ــــ</li>
+                    <li><a href="#">partners</a></li>
+                    <li class="line">ــــ</li>
+                    <li><a href="#">business line</a></li>
+                    <li class="phone"><a href="#"><img src="img/cont.png" alt="phone"></a></li>
+                </ul>
+            </nav>
+
+        </header>
+
+        <section class="social">
+                <div id="scroll"></div>
+            <ul>
+                <li><a href="#"><img src="img/facebook.png" alt=" facebook "></a></li>
+                <li><a href="#"><img src="img/insta.png" alt=" instagram "></a></li>
+                <li><a href="#"><img src="img/linked.png" alt=" linked "></a></li>
+            </ul>
+        </section>
+        <section class="hero">
+            <div class="content">
+                <div class="slider">
+                    <div class="mySlides">
+                            <h1  class="text off-screen">1we place partnerships with customers
+                                    <br>
+                                    and principals at the heart of our activities,
+                            </h1>
+                        <img src="img/imghero.jpg" alt="hero" class="imghero">
+                   
+                    </div>
+                    <div class="mySlides">
+                            <h1 class="text off-screen">2we place partnerships with customers
+                                    <br>
+                                    and principals at the heart of our activities,
+                            </h1>
+                        <img src="img/2.jpg" alt="hero" class="imghero">
+                       
+                    </div>
+                    <div class="mySlides">
+                            <h1 class="text off-screen">3we place partnerships with customers
+                                    <br>
+                                    and principals at the heart of our activities,
+                            </h1>
+                        <img src="img/3.jpg" alt="hero" class="imghero">
+                       
+                    </div>
+                    <div class="mySlides">
+                            <h1 class="text off-screen">4we place partnerships with customers
+                                    <br>
+                                    and principals at the heart of our activities,
+                            </h1>
+                        <img src="img/4.jpg" alt="hero" class="imghero">
+                        
+                    </div>
+                </div>
+
+                <a href="#"><img src="img/left.png" alt="back" class="back"  onclick="plusSlides(-1)"></a>
+                <a href="#"><img src="img/left.png" alt="next to" class="next"  onclick="plusSlides(1)"></a>
+            </div>
+           
+        </section>
+
+        <section class="about">
+            <div class="firstCol">
+                <img src="img/about.png" alt="about image">
+            </div>
+            <div class="secondCol">
+                <h1>_our major
+                    principals.</h1>
+                <p>We place partnerships with customers and
+                    principals at the heart of our activities, and
+                    have the knowledge to help you thrive in your
+                    business.
+                </p>
+
+            </div>
+
+
+
+
+        </section>
+
+
+        <section class="feat">
+
+            <h1 class="title">business lines</h1>
+            <div class="business">
+                <p class="right">Liquid coating </p>
+               <div class="img-box"><img src="img/blue.png" alt="this image Liquid coating"></div>
+            </div>
+            <div class="business">
+                <p class="left">UV Coating </p>
+                <div class="img-box"><img src="img/img1.png" alt="this image UV coating "></div>
+            </div>
+            <div class="business">
+                <p class="right">Liquid coating </p>
+                <div class="img-box"><img src="img/9.png" alt="this image Liquid coating "> </div>
+            </div>
+            <div class="business">
+                <p class="left">UV Coating </p>
+                <div class="img-box"><img src="img/img3.png" alt="this image UV coating "> </div>
+            </div>
+
+        </section>
+        <section class="contact">
+
+            <h1 class="title">find us</h1>
+            <div class="cont">
+                <div class="firstCol">
+                    <h1>HI</h1>
+                    <p>
+                        We are happy to receive your
+                        music sheet request.
+                    </p>
+                    <hr>
+                    <br>
+
+                    <p>
+                        Mobile: 00962795555555 <br>
+                        Email: info@alfa.com
+                    </p>
+                </div>
+                <div class="secondCol">
+                    <form name="myForm" >
+                        <input id="_name" type="text" placeholder="name" > <br>
+                        <input id="email" type="text" placeholder="email" name="email" onblur="validateEmail(this.value);"> <br>
+                        <textarea id="message" type="text" placeholder="message"></textarea> <br>
+                        <button onclick="validateForm(); return false;" >send</button>
+                    </form>
+                    <div id="empty"></div>
+                </div>
+            </div>
+        </section>
+
+        <footer>
+
+            <p>© 2019 Alfa | Ideally Yours. All Rights Reserved.</p>
+        </footer>
+        <div id="mouseMove"></div>
+
+    </main>
+
+    <script type="text/javascript" src="js/main.js"></script>
+</body>
+
+</html>
